@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <TextView
+        android:id="@+id/you_are_wel"
+        android:layout_width="match_parent"
+        android:layout_height="269dp"
+        android:layout_gravity="center"
+        android:background="#7a8cf0"
+        android:gravity="center"
+        android:text="You are \n Welcome!"
+        android:textColor="@color/white"
+        android:textSize="60sp" />
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+   app:cardCornerRadius="15dp"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginTop="20dp">
+
+
+    <TextView
+        android:id="@+id/charity_taker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="26dp"
+        android:rotationX="1"
+        android:text="Charity Taker "
+        android:textColor="#7a8cf0"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+</androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp">
+
+    <TextView
+        android:id="@+id/philantropist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="26dp"
+        android:rotationX="1"
+        android:text="Philantropist "
+        android:textColor="#7a8cf0"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|end"/>
+
+</LinearLayout>
